@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Data;
 using System.Globalization;
 using System.Linq;
-using Bango.SqlImport.DataReader.Configuration;
+using SqlImport.DataReader.Configuration;
 
-namespace Bango.SqlImport.DataReader.Decorators
+namespace SqlImport.DataReader.Decorators
 {
     public class DataReaderValueTransformation : DataReaderDecoratorBase
     {

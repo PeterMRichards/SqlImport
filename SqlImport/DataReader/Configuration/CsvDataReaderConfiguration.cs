@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Bango.SqlImport.DataReader.Configuration
+namespace SqlImport.DataReader.Configuration
 {
     public class CsvDataReaderConfiguration
     {

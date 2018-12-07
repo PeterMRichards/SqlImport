@@ -1,4 +1,4 @@
-﻿namespace Bango.SqlImport.DataReader.Configuration
+﻿namespace SqlImport.DataReader.Configuration
 {
     public static class ParamKeys
     {

@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using Bango.SqlImport.DataReader;
-using Bango.SqlImport.DataReader.Configuration;
-using Bango.SqlImport.DataReader.Csv;
 using Newtonsoft.Json;
 using NUnit.Framework;
+using SqlImport.DataReader;
+using SqlImport.DataReader.Configuration;
+using SqlImport.DataReader.Csv;
 
-namespace Bango.SqlImport.Tests
+namespace SqlImport.Tests
 {
     [Ignore("These are end to end tests. They rely on the SQL connectivity and the test table to run. Please, refer to ReadMe.md for details.")]
     public class SystemTests

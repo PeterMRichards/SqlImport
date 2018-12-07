@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Data;
 
-namespace Bango.SqlImport.DataReader.Decorators
+namespace SqlImport.DataReader.Decorators
 {
     public class DataReaderColumnMapping : DataReaderDecoratorBase
     {

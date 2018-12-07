@@ -2,7 +2,7 @@
 using System.IO;
 using NUnit.Framework;
 
-namespace Bango.SqlImport.Tests
+namespace SqlImport.Tests
 {
     [SetUpFixture]
     public class SetUpFixture

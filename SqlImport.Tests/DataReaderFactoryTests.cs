@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Bango.SqlImport.DataReader;
-using Bango.SqlImport.DataReader.Configuration;
 using NUnit.Framework;
+using SqlImport.DataReader;
+using SqlImport.DataReader.Configuration;
 
-namespace Bango.SqlImport.Tests
+namespace SqlImport.Tests
 {
     public class DataReaderFactoryTests
     {

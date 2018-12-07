@@ -2,7 +2,7 @@
 using System.Data;
 using System.Data.SqlClient;
 
-namespace Bango.SqlImport
+namespace SqlImport
 {
     public class BulkCopyUtility : IBulkCopyUtility
     {

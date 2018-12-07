@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 
-namespace Bango.SqlImport.DataReader.Decorators
+namespace SqlImport.DataReader.Decorators
 {
     /// <summary>
     /// Decorator providing a way of adding additional column values to the decorated reader.
