@@ -1,4 +1,4 @@
-﻿# Bango.SqlImport
+﻿# SqlImport
 
 The purpose of this project is to provide a reliable, flexible and configuration driven way of importing data from data source (e.g. CSV file) to SQL database table.
 One of the common problems with data import is loading the entire dataset from file into memory before making a SQL insert call (e.g. using a DataTable class).
@@ -7,7 +7,7 @@ This can be avoided by streaming data from the source to the destination table u
 This project provides this functionality and adds additional configuration options on top of it (see below).
 
 # Configuration and usage
-For examples in code, go to Bango.SqlImport.Tests, SystemTests. Refer to the ReadMe file of that project.
+For examples in code, go to SqlImport.Tests, SystemTests. Refer to the ReadMe file of that project.
 The main problem you will face is how to create the IDataReader implementation which reads from your data source and implements the features you require.
 
 ## Supported IDataReader sources

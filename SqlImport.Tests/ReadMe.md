@@ -1,4 +1,4 @@
-﻿# Bango.SqlImport.Tests
+﻿# SqlImport.Tests
 
 # Setup
 To go through the functionality end to end, use SystemTests class. The class demonstrates a few options when importing data from a csv file to a test table called TransactionImport.
