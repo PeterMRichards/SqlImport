@@ -9,7 +9,7 @@ SET ANSI_PADDING ON
 GO
 
 CREATE TABLE [dbo].[TransactionImport](
-	[TranId] [VARCHAR](200) NOT NULL,
+	[TranId] [NVARCHAR](200) NOT NULL,
 	[TranAmount] [DECIMAL](18, 0) NOT NULL,
 	[TranDate] [DATETIME2](7) NOT NULL,
 	[CurrencyIso3] [CHAR](3) NOT NULL,
