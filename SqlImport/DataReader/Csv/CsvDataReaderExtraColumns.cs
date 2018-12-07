@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Bango.SqlImport.DataReader.Decorators;
+using SqlImport.DataReader.Decorators;
 
-namespace Bango.SqlImport.DataReader.Csv
+namespace SqlImport.DataReader.Csv
 {
     /// <summary>
     /// Convenience class utilising CsvDataReader and adding extra columns functionality to it.

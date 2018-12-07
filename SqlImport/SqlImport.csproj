@@ -6,6 +6,8 @@
         <Company />
         <Product>SqlImport</Product>
         <Description>The purpose of this project is to provide a reliable, flexible and configuration driven way of importing data from data source (e.g. CSV file) to SQL database table.</Description>
+        <PackageProjectUrl>github.com/michal-ciesielski/SqlImport</PackageProjectUrl>
+        <PackageLicenseUrl>github.com/michal-ciesielski/SqlImport/blob/master/LICENSE</PackageLicenseUrl>
     </PropertyGroup>
     <ItemGroup>
       <PackageReference Include="CsvHelper" Version="12.0.1" />

@@ -1,7 +1,7 @@
 ﻿using System.Data;
-using Bango.SqlImport.DataReader.Configuration;
+using SqlImport.DataReader.Configuration;
 
-namespace Bango.SqlImport.DataReader
+namespace SqlImport.DataReader
 {
     public interface IDataReaderFactory
     {

@@ -4,7 +4,7 @@ using System.Data;
 using System.IO;
 using CsvHelper;
 
-namespace Bango.SqlImport.DataReader.Csv
+namespace SqlImport.DataReader.Csv
 {
     /// <summary>
     /// Reader providing streaming access to a CSV file.
