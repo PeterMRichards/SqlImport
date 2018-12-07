@@ -74,13 +74,13 @@
     <None Include="ReadMe.md" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Bango.SqlImport\SqlImport.csproj">
-      <Project>{9b1cff15-addd-41cd-abbb-45e3e2e4c17d}</Project>
-      <Name>SqlImport</Name>
-    </ProjectReference>
+    <Content Include="Files\SqlScripts\CreateTransactionImportTable.sql" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Files\SqlScripts\CreateTransactionImportTable.sql" />
+    <ProjectReference Include="..\SqlImport\SqlImport.csproj">
+      <Project>{0a003a6f-62e0-41b8-badb-85ea9217022d}</Project>
+      <Name>SqlImport</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
