@@ -21,11 +21,12 @@ namespace SqlImport.DataReader.Csv
         /// </summary>
         /// <param name="csvFilePath">Path to the CSV file on disk</param>
         /// <param name="typeMappings">Specifies what types are stored in each column of the CSV</param>
-        public CsvDataReader(string csvFilePath, List<TypeCode> typeMappings)
+        public CsvDataReader(string csvFilePath, List<TypeCode> typeMappings, string? dilim)
         {
             this.typeMappings = typeMappings;
             textReader = File.OpenText(csvFilePath);
             csvReader = new CsvReader(textReader);
+            csvReader.Configuration.Delimiter ??= dilim;
             headers = csvReader.Parser.Read();
             IsClosed = false;
             RecordsAffected = 0;
